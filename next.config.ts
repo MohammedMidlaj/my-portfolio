@@ -1,12 +1,11 @@
-import type { NextConfig } from "next";
-
 const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: '/your-repo-name', // IMPORTANT
-  assetPrefix: '/your-repo-name/',
+  basePath: '',
+  assetPrefix: '',  
 };
 
 module.exports = nextConfig;
+
