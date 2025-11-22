@@ -1,18 +1,16 @@
-import './globals.css'
+import './globals.css';
 
 export const metadata = {
   title: 'Mohammed Midlaj - Full Stack Developer',
-  description: 'Portfolio of Mohammed Midlaj, Full Stack Developer specializing in React, Python, and .NET',
-}
+  description: 'Portfolio website',
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}): React.ReactNode {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className="bg-slate-950 text-slate-100 antialiased">{children}</body>
+    <html lang="en">
+      <body className="bg-slate-950 text-slate-100 antialiased">
+        {children}
+      </body>
     </html>
   );
 }
